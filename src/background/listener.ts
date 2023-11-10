@@ -27,6 +27,11 @@ export class Listener {
 
   private onActionClick(tabId: number) {
     console.log(`Action click: ${tabId}`);
+    browser.windows.create({
+      type: 'popup',
+      url: 'https://tasks.google.com/embed/list/~default?origin=https://https://mail.google.com',
+      width: 400,
+    });
   }
 
   private onContextMenuClick(menuItemId: ContextMenuId, tabId: number) {

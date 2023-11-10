@@ -12,7 +12,7 @@
 
 ## Features
 
--
+- Open Google Tasks Panel
 
 ## ChangeLog
 
@@ -31,4 +31,5 @@
 ## License
 
 ```
+
 ```

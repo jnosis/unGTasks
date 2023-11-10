@@ -12,7 +12,7 @@
 
 ## Features
 
--
+- 구글 태스크 패널 열기
 
 ## ChangeLog
 

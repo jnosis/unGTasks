@@ -3,26 +3,22 @@
     "message": "unGTasks"
   },
   "extensionDescription": {
-    "message": ""
-  },
-
-  "commands_": {
-    "message": ""
+    "message": "구글 태스크 패널 열기"
   },
 
   "notificationTitle": {
-    "message": "Updated"
+    "message": "업데이트"
   },
 
   "contextMenu_shortcuts": {
-    "message": "Shortcut Setting"
+    "message": "단축키 설정"
   },
   "contextMenu_changelog": {
     "message": "changelog"
   },
 
   "feature1": {
-    "message": ""
+    "message": "구글 태스크 패널 열기"
   },
 
   "changelog_1_0_0": {

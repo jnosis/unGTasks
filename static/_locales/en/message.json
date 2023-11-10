@@ -3,11 +3,7 @@
     "message": "unGTasks"
   },
   "extensionDescription": {
-    "message": ""
-  },
-
-  "commands_": {
-    "message": ""
+    "message": "Open Panel for Google Tasks"
   },
 
   "notificationTitle": {
@@ -22,7 +18,7 @@
   },
 
   "feature1": {
-    "message": ""
+    "message": "Open Google Tasks Panel"
   },
 
   "changelog_1_0_0": {

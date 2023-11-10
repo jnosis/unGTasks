@@ -28,7 +28,7 @@ module.exports = (env) => {
       new CopyPlugin({
         patterns: [
           {
-            from: './public/manifest.json',
+            from: './static/manifest.json',
             to: './',
             transform(content, path) {
               return modify(content, !!env.production, env.platform);
@@ -47,8 +47,7 @@ module.exports = (env) => {
                   return;
                 }
 
-                console.log('
-Run zip.js');
+                console.log('Run zip.js');
                 if (stdout) process.stdout.write(stdout);
                 if (stderr) process.stderr.write(stderr);
               });

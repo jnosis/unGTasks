@@ -37,7 +37,7 @@ module.exports = {
     new CopyPlugin({
       patterns: [
         {
-          from: './public',
+          from: './static',
           to: './',
           globOptions: { ignore: '**/manifest.json' },
         },

@@ -1,0 +1,39 @@
+{
+  "extensionName": {
+    "message": "unGTasks"
+  },
+  "extensionDescription": {
+    "message": ""
+  },
+
+  "commands_": {
+    "message": ""
+  },
+
+  "notificationTitle": {
+    "message": "Updated"
+  },
+
+  "contextMenu_shortcuts": {
+    "message": "Shortcut Setting"
+  },
+  "contextMenu_changelog": {
+    "message": "changelog"
+  },
+
+  "feature1": {
+    "message": ""
+  },
+
+  "changelog_1_0_0": {
+    "message": "1.0.0: Initial release"
+  },
+
+  "knownIssue1": {
+    "message": ""
+  },
+
+  "todo1": {
+    "message": ""
+  }
+}

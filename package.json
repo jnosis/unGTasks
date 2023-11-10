@@ -1,0 +1,49 @@
+{
+  "name": "ungtasks",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "webpack --env platform=chrome --watch",
+    "build": "webpack --env platform=chrome",
+    "prod": "webpack --env platform=chrome --env production",
+    "clean": "rimraf dist *.zip",
+    "zip": "node zip.js",
+    "delete-zip": "rimraf *.zip",
+    "dev:chrome": "webpack --env platform=chrome --watch",
+    "build:chrome": "webpack --env platform=chrome",
+    "prod:chrome": "webpack --env platform=chrome --env production",
+    "dev:firefox": "webpack --env platform=firefox --watch",
+    "build:firefox": "webpack --env platform=firefox",
+    "prod:firefox": "webpack --env platform=firefox --env production",
+    "dev:edge": "webpack --env platform=edge --watch",
+    "build:edge": "webpack --env platform=edge",
+    "prod:edge": "webpack --env platform=edge --env production",
+    "dev:whale": "webpack --env platform=whale --watch",
+    "build:whale": "webpack --env platform=whale",
+    "prod:whale": "webpack --env platform=whale --env production"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/jnosis/unGTasks/issues"
+  },
+  "homepage": "",
+  "private": "true",
+  "devDependencies": {
+    "@types/chrome": "^0.0.246",
+    "@types/firefox-webext-browser": "^111.0.2",
+    "@types/naver-whale": "^0.0.4",
+    "archiver": "^6.0.1",
+    "copy-webpack-plugin": "^9.0.1",
+    "ts-loader": "^9.5.0",
+    "typescript": "^5.2.2",
+    "webpack": "^5.76.0",
+    "webpack-cli": "^4.8.0",
+    "webpack-merge": "^5.8.0"
+  }
+}

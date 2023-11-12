@@ -29,7 +29,7 @@ export class Listener {
     console.log(`Action click: ${tabId}`);
     browser.windows.create({
       type: 'popup',
-      url: 'https://tasks.google.com/embed/list/~default?origin=https://https://mail.google.com',
+      url: 'https://tasks.google.com/embed/list/~default?origin=https://mail.google.com',
       width: 400,
     });
   }

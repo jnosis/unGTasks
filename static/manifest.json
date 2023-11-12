@@ -25,21 +25,6 @@
     "service_worker": "background.js"
   },
 
-  "commands": {
-    "": {
-      "suggested_key": {
-        "default": ""
-      },
-      "description": "__MSG_command___"
-    },
-    "dev": {
-      "suggested_key": {
-        "default": "Alt+Shift+D"
-      },
-      "description": "dev"
-    }
-  },
-
   "permissions": ["contextMenus", "notifications"],
 
   "chrome": {
